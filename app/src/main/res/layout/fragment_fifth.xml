@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.project.roy.simple_lifehack.Fragment.FifthFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1">
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/phone_holder"
+            android:layout_marginTop="0dp"
+            android:id="@+id/imageView" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_second_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Holder Tips"
+        android:textColor="@color/white1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:textSize="20dp"
+        android:background="@color/black1" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_fifth_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_navigate_next_white_24dp"
+        app:fab_size="normal"
+        app:fab_elevationCompat="6dp"
+        app:fab_colorNormal="@color/colorPrimaryDark"
+        app:fab_shadowColor="#66aff198"
+        app:fab_shadowRadius="6dp"
+        app:fab_shadowXOffset="2dp"
+        app:fab_shadowYOffset="4dp"
+        app:fab_showShadow="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source Image : www.mashable.com"
+        android:textSize="12sp"
+        android:textColor="@color/black1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/layout1"
+        android:textStyle="italic"
+        android:id="@+id/source"/>
+
+    <TextView
+        android:layout_below="@id/source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tips_4"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@color/black2"
+        android:id="@+id/onetext"/>
+
+    <TextView
+        android:layout_below="@id/onetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tips_42"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/black2"
+        android:textSize="16sp"
+        />
+
+
+</RelativeLayout>
